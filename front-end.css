@@ -1,0 +1,59 @@
+body {
+    background-color: #e5e1e1;
+}
+
+img {
+    border-radius: 50%;
+    height: 154px;
+    width: 154px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #4f1b12;
+    margin: 50px 0;
+}
+
+.input-group {
+    margin: 5px auto;
+}
+
+.input-group-addon {
+    background-color: #fbfbfb;
+    border: none;
+    display: table;
+    color: #8c8c8c;
+    height: 90px;
+    border-radius: 10px;
+}
+
+span {
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 1.5em;
+}
+
+.form-control {
+    padding: 0;
+    border: none;
+    border-radius: 10px;
+    background-color: #fbfbfb;
+}
+
+.form-control:focus {
+    box-shadow: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+p {
+    margin: 25px 0;
+    font-size: 1.5em;
+    color: #8c8c8c;
+}
