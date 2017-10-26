@@ -7,39 +7,52 @@
     </head>
     
     <body>
-        <div class="header">
+        <div class="header text-center" style="margin-bottom: 0">
             <img src="picture/photo.png" alt="user photo">
-            <p>Beauty</p>
+            <p style="color: #605d5d; font-size: 2.8rem">Beauty</p>
         </div>
         <div class="register-form">
-            <div class="title">
-                <hr>
-                <h2>Personal Info</h2>
-                <hr>
+            <div class="row">
+                <div class="title col-sm-10">
+                    <hr class="col-sm-3">
+                    <h2 class="col-sm-4" style="margin: 2.5rem auto">个人信息</h2>
+                    <hr class="col-sm-3">
+                </div>
             </div>
-            <form class="row">
+            <form class="form-row">
                 <div class="input-group col-sm-10">
-                    <label for="inputUsername" class="input-group-addon col-sm-2"><span>姓 名</span></label>  
+                    <label for="inputUsername" class="input-group-addon col-sm-3"><span>姓 名</span></label>  
                     <input id="username" type="text" class="form-control" required>
                 </div>
                 <div class="input-group col-sm-10">
-                    <label for="inputPhonenumber" class="input-group-addon col-sm-2"><span>电 话</span></label>
+                    <label for="inputPhonenumber" class="input-group-addon col-sm-3"><span>电 话</span></label>
                     <input id="phonenumber" type="number" class="form-control" required>
                 </div>
                 <div class="col-sm-10" style="margin: auto">
-                    <p>For better service, please input addon infos.</p>
+                    <p>为了你能获得更好的服务，请完善以下资料：</p>
                 </div>
                 <div class="input-group col-sm-10">
-                    <label for="inputUsername" class="input-group-addon col-sm-2"><span>性 别</span></label>  
-                    <input id="sex" type="text" class="form-control" required>
+                    <label for="inputSex" class="input-group-addon col-sm-3"><span>性 别</span></label>
+                    <select class="form-control" style="height: 8rem; font-size: 2.6rem" required>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                    </select>
                 </div>
                 <div class="input-group col-sm-10">
-                    <label for="inputUsername" class="input-group-addon col-sm-2"><span>学 校</span></label>  
+                    <label for="inputUsername" class="input-group-addon col-sm-3"><span>学 校</span></label>  
                     <input id="school" type="text" class="form-control" required>
                 </div>
                 <div class="input-group col-sm-10">
-                    <label for="inputUsername" class="input-group-addon col-sm-2"><span>生 日</span></label>
-                    <input id="birthday" type="text" class="form-control" required>
+                    <label for="inputUsername" class="input-group-addon col-sm-3"><span>生 日</span></label>
+                    <input id="year" type="number" class="form-control" min="1900" max="2017" style="text-align: right" required>
+                    <label for="inputYear" class="input-group-addon"><span style="padding: 0 1rem 0 1rem">年</span></label>
+                    <input id="month" type="number" class="form-control" min="1" max="12"  style="text-align: right" required>
+                    <label for="inputMonth" class="input-group-addon"><span style="padding: 0 1rem 0 1rem">月</span></label>
+                    <input id="day" type="number" class="form-control" min="1" max="31"  style="text-align: right" required>
+                    <label for="inputDay" class="input-group-addon"><span style="padding: 0 1rem 0 1rem">日</span></label>
+                </div>
+                <div class="col-sm-10 submitbutton">
+                    <button type="submit" class="btn btn-block">完成</button>
                 </div>
             </form>
         </div>

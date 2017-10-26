@@ -1,21 +1,30 @@
 body {
     background-color: #e5e1e1;
+    font-family: "Microsoft YaHei";
+}
+
+.header {
+    margin: 4.5rem auto;
 }
 
 img {
     border-radius: 50%;
-    height: 154px;
-    width: 154px;
+    height: 15rem;
+    width: 15rem;
 }
 
 h2 {
-    font-size: 2em;
+    display: inline-block;
+    font-size: 3.6em;
     color: #4f1b12;
-    margin: 50px 0;
+    margin: 5rem auto;
+    text-align: center;
 }
 
 .input-group {
-    margin: 5px auto;
+    margin: 0.5rem auto;
+    border: none;
+    box-shadow: none;
 }
 
 .input-group-addon {
@@ -30,7 +39,9 @@ h2 {
 span {
     display: table-cell;
     vertical-align: middle;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
+    background-color: #fbfbfb;
+    color: #8c8c8c;
 }
 
 .form-control {
@@ -57,8 +68,37 @@ p {
     margin: 25px 0;
     font-size: 1.5em;
     color: #8c8c8c;
+    font-size: 2.4rem;
 }
 
 input[type] {
-    font-size: 2.5rem;
+    font-size: 2.6rem;
 }
+
+.submitbutton {
+    margin: 6rem auto 3rem auto;
+}
+
+.btn {
+    height: 8rem;
+    font-size: 3.2rem;
+    border-radius: 10px;
+    background-color: #4f1b12;
+    color: #ffffff;
+}
+
+hr {
+    display: inline-block;
+    border: 0.5px solid #4f1b12;
+    height: 0;
+    max-width: 100%;
+}
+
+.title {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+
