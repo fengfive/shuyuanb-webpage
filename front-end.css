@@ -1,6 +1,7 @@
 body {
     background-color: #e5e1e1;
     font-family: "Microsoft YaHei";
+    margin-bottom: 3rem;
 }
 
 .header {
@@ -81,7 +82,7 @@ input[type] {
 }
 
 .submitbutton {
-    margin: 6rem auto 3rem auto;
+    margin: 6rem auto 0 auto;
 }
 
 .btn {

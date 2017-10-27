@@ -29,10 +29,6 @@
                     <input id="phonenumber" type="number" class="form-control" required>
                 </div>
                 <div class="input-group col-sm-10">
-                    <label class="input-group-addon col-sm-3"><span>密 码</span></label>
-                    <input id="password" type="text" class="form-control" required>
-                </div>
-                <div class="input-group col-sm-10">
                     <label for="inputSex" class="input-group-addon col-sm-3"><span>性 别</span></label>
                     <select class="form-control" style="height: 8rem; font-size: 2.6rem" required>
                         <option value="male">男</option>
@@ -51,6 +47,14 @@
                     <label for="inputMonth" class="input-group-addon"><span style="padding: 0 1rem 0 1rem">月</span></label>
                     <input id="day" type="number" class="form-control" min="1" max="31"  style="text-align: right" required>
                     <label for="inputDay" class="input-group-addon"><span style="padding: 0 1rem 0 1rem">日</span></label>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>密 码</span></label>
+                    <input id="password" type="password" class="form-control" required>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>确认密码</span></label>
+                    <input id="confirmpassword" type="password" class="form-control" required>
                 </div>
                 <div class="col-sm-10 submitbutton">
                     <button onClick="location.href='userpage.html'" type="submit" class="btn btn-block">注册</button>
