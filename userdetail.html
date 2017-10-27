@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="bootstrap.css">
+        <link rel="stylesheet" href="front-end.css">
+        <style>
+            div {
+                margin: auto;
+            }
+            
+            .btn {
+                background-color: #e5e1e1;
+                color: #4f1b12;
+                border: 1px solid #4f1b12;
+                border-radius: 10px;
+                height: auto;
+                float: right;
+                font-size: 2.6rem;
+                margin: 25px 0;
+                padding: 0 1rem;
+            }
+            
+            .btn:focus, .btn:active {
+                box-shadow: none;
+            }
+            
+            hr {
+                display: block;
+                border: 0.5px solid #4f1b12;
+                height: 0;
+                max-width: 100%;
+            }
+            
+            .form-control {
+                text-align: right; 
+                padding-right: 3rem;
+                color: #8c8c8c;
+            }
+            
+            .form-control:focus {
+                color: #8c8c8c;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <h2>我的信息</h2>
+        <div class="header text-center" style="margin-bottom: 0">
+            <img class="header-photo" src="picture/photo.png" alt="user photo">
+        </div>
+        <div class="row">
+            <div class="col-sm-10" style="margin-top: 2rem; padding: 0">
+                <p style="color: #605d5d; font-size: 2.8rem; display: inline-block;">Beauty</p>
+                <button type="submit" class="btn">修改个人资料</button>
+            </div>
+            <div class="col-sm-10" style="margin: 0 auto 20px auto; padding: 0">
+                <hr>
+            </div>
+            <div class="form-row">
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>姓 名</span></label>
+                    <input id="username" type="text" class="form-control" value="Beauty" readonly>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>电 话</span></label> 
+                    <input id="phonenumber" type="number" class="form-control" value="13888888888" readonly>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>性 别</span></label> 
+                    <input id="sex" type="text" class="form-control" value="女" readonly>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>学 校</span></label> 
+                    <input id="school" type="text" class="form-control" value="湖南大学" readonly>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>生 日</span></label> 
+                    <input id="birthday" type="text" class="form-control" value="1998年10月10日" readonly>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>专 业</span></label> 
+                    <input id="subject" type="text" class="form-control" readonly>
+                </div>
+                <div class="input-group col-sm-10">
+                    <label class="input-group-addon col-sm-3"><span>邮 箱</span></label> 
+                    <input id="email" type="text" class="form-control" readonly>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

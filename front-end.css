@@ -14,10 +14,9 @@ body {
 }
 
 h2 {
-    display: inline-block;
     font-size: 3.6em;
     color: #4f1b12;
-    margin: 5rem auto;
+    margin: 4rem auto;
     text-align: center;
     font-weight: bold;
 }
@@ -55,6 +54,10 @@ span {
 
 .form-control:focus {
     box-shadow: none;
+    background-color: #fbfbfb;
+}
+
+.form-control[readonly] {
     background-color: #fbfbfb;
 }
 
@@ -113,5 +116,13 @@ hr {
     border: 0;
     border-radius: 10px;
     background-color: #4f1b12;
+}
+
+a {
+    margin: auto;
+}
+
+a:enabled {
+    text-decoration: none;
 }
 
